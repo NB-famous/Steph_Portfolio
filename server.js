@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const port=3002;
+const port=process.env.PORT || 3002;
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/index.html')))
 app.get('/p1', (req, res) => res.sendFile(path.join(__dirname, '/portfolioItem.html')))

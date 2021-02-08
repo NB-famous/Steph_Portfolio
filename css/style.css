@@ -144,7 +144,10 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    /* max-width: 100px; */
+    max-width: 25rem;
+    max-height: 25rem;
+    margin-right: 45px;
 }
 
 .nav {
@@ -295,11 +298,11 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/b1.jpg);
+    /* background-image: url(../img/b1.jpg); */
     background-size: cover;
-    /* background-color: #f0ead6;  */
+    background-color: #f0ead6; 
     /* background-blend-mode: multiply; */
-    color: var(--clr-light);
+    color: var(--clr-dark);
     text-align: center;
 }
 
