@@ -78,7 +78,7 @@ strong { font-weight: var(--fw-bold) }
     color: var(--clr-dark);
     text-decoration: none;
     cursor: pointer;
-    font-size: .8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
@@ -86,7 +86,7 @@ strong { font-weight: var(--fw-bold) }
 }
 
 .btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 /* Typography */
