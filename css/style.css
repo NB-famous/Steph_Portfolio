@@ -17,9 +17,9 @@
     --clr-dark: #303030;
     --clr-accent: #f0ead6;
     
-    --fs-h1: 3rem;
-    --fs-h2: 2.25rem;
-    --fs-h3: 1.25rem;
+    --fs-h1: 2.25rem;
+    --fs-h2: 1.25rem;
+    --fs-h3: 1rem;
     --fs-body: 1rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
@@ -29,9 +29,9 @@
 
 @media (min-width: 800px) {
     :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
+        --fs-h1: 3.25rem;
+        --fs-h2: 2.75rem;
+        --fs-h3: 1.25rem;
         --fs-body: 1.125rem;
     }
 }
@@ -147,7 +147,7 @@ header {
     /* max-width: 100px; */
     max-width: 25rem;
     max-height: 25rem;
-    margin-right: 45px;
+    margin-right: 60px;
 }
 
 .nav {
