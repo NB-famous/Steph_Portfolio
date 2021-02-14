@@ -351,6 +351,7 @@ header {
     .service + .service {
         margin-left: 2em;
     }
+    
 }
 
 /* About me section */
@@ -398,27 +399,37 @@ header {
         position: relative;
         z-index: 2;
     }
+
+
+
 }
 
 
 /* My Work */
 
 .my-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--clr-accent);
     color: var(--clr-dark);
     text-align: center;
+    
         
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  */
     /* grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    padding: 0.1em;
 }
 
 .portfolio__img {
@@ -546,3 +557,51 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Call to action function */
+
+
+/* Create three equal columns that floats next to each other */
+.ctacolumn {
+    /* float: left;
+    width: 33.33%; */
+    display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.ctarow:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+/* Style the buttons */
+.ctabtn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: black;
+  color:white;
+}
+
+/* Add a grey background color on mouse-over */
+.ctabtn:hover {
+  /* background-color: #ddd; */
+  cursor: pointer;
+}
+
+/* Add a dark background color to the active button */
+.ctabtn.active {
+  background-color: black;
+   color: white;
+}
+
+.myBtnContainer1{
+    padding: 0.5em;
+} 
