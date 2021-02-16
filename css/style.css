@@ -29,7 +29,7 @@
     --clr-accent: #dddad5;
     
     --fs-h1: 2.25rem;
-    --fs-h2: 1.25rem;
+    --fs-h2: 1.75rem;
     --fs-h3: 1rem;
     --fs-body: 1rem;
 
@@ -50,7 +50,7 @@
 @media (min-width: 600px) {
     :root {
         --fs-h1: 2.5rem;
-        --fs-h2: 2.5rem;
+        --fs-h2: 2.0rem;
         --fs-h3: 0.5rem;
         --fs-body: 1.125rem;
     }
@@ -315,7 +315,8 @@ header {
     .intro__img {
         grid-area: img;
         min-width: 50px;
-        max-width: 450px;
+        max-width: 300px;
+        max-height: 500px;
         position: relative;
         z-index: 2;
     }    
@@ -341,6 +342,19 @@ header {
         /* text-align: center; */
         font-weight: 800;
     
+    }
+
+    .section__title--services {
+        letter-spacing: 10px;
+        text-align: justify;
+    }
+
+    .service {
+        text-align: justify;
+    }
+
+    .logo{
+        margin-left: 30%;
     }
 
 
@@ -380,6 +394,7 @@ header {
 .services {
     margin-bottom: 4em;
     margin-left: 1.5em;
+    width: auto;
 }
 
 .service {
