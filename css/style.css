@@ -47,6 +47,15 @@
     }
 }
 
+@media (min-width: 600px) {
+    :root {
+        --fs-h1: 2.5rem;
+        --fs-h2: 2.5rem;
+        --fs-h3: 0.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
 /* General styles */
 
 html {
@@ -323,6 +332,7 @@ header {
 
     .my-services {
         display: flex;
+        justify-content: center;
         background-color: var(--clr-accent);
         /* background-image: url(../img/b1.jpg); */
         background-size: cover; 
@@ -369,6 +379,7 @@ header {
 
 .services {
     margin-bottom: 4em;
+    margin-left: 1.5em;
 }
 
 .service {
