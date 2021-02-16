@@ -316,7 +316,6 @@ header {
         grid-area: img;
         min-width: 50px;
         max-width: 300px;
-        max-height: 500px;
         position: relative;
         z-index: 2;
     }    
