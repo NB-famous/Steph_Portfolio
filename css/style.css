@@ -38,7 +38,7 @@
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1600px) {
     :root {
         --fs-h1: 3.25rem;
         --fs-h2: 2.75rem;
@@ -377,7 +377,7 @@ header {
     font-weight: 300;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1600px) {
     /* .services {
         display: flex;
         max-width: 1000px;
