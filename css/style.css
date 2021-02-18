@@ -29,7 +29,7 @@
     --clr-accent: #dddad5;
     
     --fs-h1: 2.25rem;
-    --fs-h2: 1.75rem;
+    --fs-h2: 1.25rem;
     --fs-h3: 1rem;
     --fs-body: 1rem;
 
@@ -51,7 +51,7 @@
     :root {
         --fs-h1: 2.5rem;
         --fs-h2: 2.0rem;
-        --fs-h3: 0.5rem;
+        --fs-h3: 2rem;
         --fs-body: 1.125rem;
     }
 }
@@ -124,6 +124,9 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 300;
 }
 
 .section__title--intro {
@@ -135,7 +138,10 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__title--work {
-    font-weight: 800;
+    font-weight: 300;
+    font-size: 36px;
+    margin-bottom: 1.5em;
+    color: #b3b0ab;
 }
 
 .section__subtitle {
@@ -189,8 +195,8 @@ header {
 
 .nav {
     position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-accent);
+    background: #b3b0ab;
+    color: #dddad5;
     top: 0;
     bottom: 0;
     left: 0;
@@ -294,6 +300,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    margin-bottom: 20px;
 }
 
 /* .section__subtitle--intro {
@@ -356,6 +363,14 @@ header {
         margin-left: 30%;
     }
 
+    .form-control{
+        width: 600px;
+    }
+
+    .contact-form textarea{
+        height: 300px;
+    }
+
 
     
 }
@@ -375,9 +390,11 @@ header {
 }
 
 .section__title--services {
-    color: var(--clr-dark);
+    color:  #b3b0ab;
     position: relative;
     font-weight: 800;
+    letter-spacing: 0.35rem;
+    font-size: x-large;
 }
 
 .section__title--services::after {
@@ -394,6 +411,7 @@ header {
     margin-bottom: 4em;
     margin-left: 1.5em;
     width: auto;
+
 }
 
 .service {
@@ -419,7 +437,6 @@ header {
         flex-direction: column;
         max-width: 1000px;
         margin-left: 20px;
-        margin-right: auto;
     }
     
     /* .service + .service {
@@ -430,9 +447,9 @@ header {
         width: 750px;
     }
 
-    .my-services{
+    /* .my-services{
         padding-left: 30%;
-    }
+    } */
 
     .portfolio {
         display: flex;
@@ -467,7 +484,8 @@ header {
     
     .section__title--about {
         grid-area: title;
-        font-weight: 500;
+        font-weight: 300;
+        text-align: center;
     }
     
     .section__subtitle--about {
@@ -492,6 +510,15 @@ header {
         
     }
 
+    .portfolio__item img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .ctabtn{
+
+        margin: 10px 25px;
+    }
 
 }
 
@@ -552,7 +579,7 @@ header {
 
 .footer {
     background: var(--clr-accent);
-    color: var(--clr-dark);
+    color:  #b3b0ab;
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
@@ -565,7 +592,8 @@ header {
 }
 
 .footer__link {
-    font-weight: var(--fw-bold);
+    /* font-weight: var(--fw-bold); */
+    font-weight: 300;
 }
 
 .footer__link:hover,
@@ -685,8 +713,9 @@ header {
   border: none;
   outline: none;
   padding: 12px 16px;
-  background-color: var(--clr-dark);
+  background-color:  #b3b0ab;
   color:white;
+  border-radius: 20px;
 }
 
 /* Add a grey background color on mouse-over */
@@ -697,8 +726,8 @@ header {
 
 /* Add a dark background color to the active button */
 .ctabtn.active {
-  background-color: var(--clr-dark);
-   color: white;
+  background-color:  #b3b0ab;
+   color: #dddad5;
 }
 
 .myBtnContainer1{
@@ -717,6 +746,10 @@ header {
 
 .contact-form{
     margin-top: 3em;
+}
+
+.contact-form textarea{
+    height: 150px;
 }
 
 .form-control{
@@ -746,7 +779,7 @@ form .submit{
 }
 
 form .submit:hover{
-    background-color:var(--clr-dark);
+    background-color:#b3b0ab;
     color:var(--clr-light);
     cursor: pointer;
 }
