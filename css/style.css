@@ -792,10 +792,12 @@ form .submit{
     height: 50px;
     margin-top: 20px;
     font-family: var(--ff-primary);
+    border-radius: 5px;
 }
 
 form .submit:hover{
-    background-color:#b3b0ab;
-    color:var(--clr-light);
+    /* background-color: var(--clr-light);
+    color:var(--clr-dark); */
     cursor: pointer;
+    opacity: 0.5;
 }
