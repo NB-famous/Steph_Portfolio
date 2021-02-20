@@ -257,11 +257,11 @@ header {
 }
 
 .nav-open .hamburger {
-    transform: rotate(.620turn);
+    transform: rotate(.626turn);
 }
 
 .nav-open .hamburger::before {
-    transform: rotate(90deg) translateX(-15px);
+    transform: rotate(90deg) translateX(-10px);
 }
 
 .nav-open .hamburger::after {
