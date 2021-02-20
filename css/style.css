@@ -203,8 +203,8 @@ header {
 
 .nav {
     position: fixed;
-    background: #b3b0ab;
-    color: #dddad5;
+    background: var(--clr-light);
+    color: var(--clr-dark);
     top: 0;
     bottom: 0;
     left: 0;
