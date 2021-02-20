@@ -30,7 +30,7 @@
     
 </head>
 <body>
-    <header class="header_box">
+    <header class="header_box" id="myHeader">
         <div class="logo">
             <!-- <img src="img/stephlogo.png" alt="logo" style="border: solid #303030; border-radius: 25px;"> -->
             <img src="img/stephlogo.png" alt="logo">
@@ -49,151 +49,155 @@
         </nav>
     </header>
 
-    <!-- Introduction -->
-    <!-- <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, my name is <strong>Stéphany Macapaz</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">Graphic Designer</p>
-        <img src="img/s5.jpg" alt="steph" class="intro__img">
-    </section> -->
+    <div class="myContent_box">
 
-    <!-- My services -->
-    <section class="my-services" id="services">
+        <!-- Introduction -->
+        <!-- <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, my name is <strong>Stéphany Macapaz</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Graphic Designer</p>
+            <img src="img/s5.jpg" alt="steph" class="intro__img">
+        </section> -->
 
-        <img src="img/s6.jpg" alt="steph" class="intro__img">
-        
-        <div class="services">
-            <h2 class="section__title section__title--services">Graphic Designer.<br><br>Digital Retoucher.<br><br>Content Creator.</h2>
-            <!-- <h2 class="section__title section__title--services">Digital Retoucher.</h2>
-            <h2 class="section__title section__title--services">Content Creator.</h2> -->
+        <!-- My services -->
+        <section class="my-services" id="services">
+
+            <img src="img/s6.jpg" alt="steph" class="intro__img">
             
-            <div class="service">
-                <!-- <h3>Design Consultation</h3> -->
-                <p>Montreal, Quebec in Canada, Stephany is a designer with a passion for creating beautiful visuals, keeping up with the trend & getting creative on social media!</p>
-            </div>
-            <br>
-            
-            <div class="service">
-                <!-- <h3>Photo-Editing</h3> -->
-                <p>
-                    Obsessed with details, Stephany also specializes in 
-                    post-production photo retouching, video editing, creating lifestyle / marketing content but also coming up with creative solutions.
-                </p>
-            </div> 
-            <br>
-            
-            <div class="service">
-                <!-- <h3>Graphic Design</h3> -->
-                <p>Lastly, its the simple things in life she enjoys such as discovering
-                    new places, beauty tips, fashion hauls, eating good food 
-                   & spreading kindness & positivity to those around her!</p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
-        
-        <!-- <a href="#work" class="btn">Click Here To See My Work</a> -->
-    </section>
-
-    <!-- About me -->
-    <section class="about-me" id="about">
-     </section>
-
-    
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">MY PORTFOLIO</h2>
-            <!-- <p class="section__subtitle section__subtitle--work">A selection of my range of work</p> -->
-        
-
-        <div id="myBtnContainer" class="myBtnContainer1" >
-            <button class="ctabtn active" onclick="filterSelection('all')">ALL</button>
-            <button class="ctabtn active" onclick="filterSelection('nature')">PRINT</button>
-            <button class="ctabtn active" onclick="filterSelection('bird')">WEB</button>
-        
-        </div>
-
-        <div class="ctacolumn nature">
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
+            <div class="services">
+                <h2 class="section__title section__title--services">Graphic Designer.<br><br>Digital Retoucher.<br><br>Content Creator.</h2>
+                <!-- <h2 class="section__title section__title--services">Digital Retoucher.</h2>
+                <h2 class="section__title section__title--services">Content Creator.</h2> -->
                 
-                <a href="/p1" class="portfolio__item">
-                    <img src="img/p1.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
+                <div class="service">
+                    <!-- <h3>Design Consultation</h3> -->
+                    <p>Montreal, Quebec in Canada, Stephany is a designer with a passion for creating beautiful visuals, keeping up with the trend & getting creative on social media!</p>
+                </div>
+                <br>
                 
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/p2.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
+                <div class="service">
+                    <!-- <h3>Photo-Editing</h3> -->
+                    <p>
+                        Obsessed with details, Stephany also specializes in 
+                        post-production photo retouching, video editing, creating lifestyle / marketing content but also coming up with creative solutions.
+                    </p>
+                </div> 
+                <br>
+                
+                <div class="service">
+                    <!-- <h3>Graphic Design</h3> -->
+                    <p>Lastly, its the simple things in life she enjoys such as discovering
+                        new places, beauty tips, fashion hauls, eating good food 
+                    & spreading kindness & positivity to those around her!</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <!-- <a href="#work" class="btn">Click Here To See My Work</a> -->
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+        </section>
+
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">MY PORTFOLIO</h2>
+                <!-- <p class="section__subtitle section__subtitle--work">A selection of my range of work</p> -->
+            
+
+            <div id="myBtnContainer" class="myBtnContainer1" >
+                <button class="ctabtn active" onclick="filterSelection('all')">ALL</button>
+                <button class="ctabtn active" onclick="filterSelection('nature')">PRINT</button>
+                <button class="ctabtn active" onclick="filterSelection('bird')">WEB</button>
+            
             </div>
 
-            <div class="portfolio">
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/p3.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
+            <div class="ctacolumn nature">
+                
+                <div class="portfolio">
+                    <!-- Portfolio item 01 -->
+                    
+                    <a href="/p1" class="portfolio__item">
+                        <img src="img/p1.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+                    
+                    <!-- Portfolio item 02 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/p2.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+                </div>
 
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/p4.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
+                <div class="portfolio">
+                    <!-- Portfolio item 03 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/p3.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+
+                    <!-- Portfolio item 03 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/p4.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+                </div>
             </div>
-        </div>
 
 
-        <div class="ctacolumn bird">
-            <div class="portfolio">
-                
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/w1.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/w2.png" alt="" class="portfolio__img" style="background-color: white;">
-                </a>
-                
+            <div class="ctacolumn bird">
+                <div class="portfolio">
+                    
+                    <!-- Portfolio item 05 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/w1.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+                    
+                    <!-- Portfolio item 06 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/w2.png" alt="" class="portfolio__img" style="background-color: white;">
+                    </a>
+                    
+                </div>
             </div>
-        </div>
 
+            
+        </section>
+
+
+        <!--Spacing-->
+
+        <section class="about-me">
+        </section>
+
+        <!-- -->
+
+        <!-- Contact Form-->
         
-    </section>
 
-
-    <!--Spacing-->
-
-    <section class="about-me">
-    </section>
-
-    <!-- -->
-
-    <!-- Contact Form-->
-    
-
-    <section class="my-contact-form" id="my-contact-form">
-        <h2 class="section__title section__title--about">Got an idea in mind? <br> Fill up the form. Let's get to work</h2>
-        <!-- <br>
-        <h2 class="section__title section__title--about">Fill up the form. Let's get to work</h2> -->
+        <section class="my-contact-form" id="my-contact-form">
+            <h2 class="section__title section__title--about">Got an idea in mind? <br> Fill up the form. Let's get to work</h2>
+            <!-- <br>
+            <h2 class="section__title section__title--about">Fill up the form. Let's get to work</h2> -->
+            
         
-    
-        <div class="contact-form">
-            <form id="contact-form" method="post" action="">
-            <input name="name" type="text" class="form-control" placeholder="First And Last Name " required>
-            <br>
-            <input name="number" type="text" class="form-control" placeholder="Phone Number " required>
-            <br>
-            <input name="email" type="email" class="form-control" placeholder="Email " required>
-            <br>
-    
-            <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
-    
-            <br>
-    
-            <input type="submit" class="form-control submit" value="SEND MESSAGE">
-            </form>
-        </div>
-     </section>
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="First And Last Name " required>
+                <br>
+                <input name="number" type="text" class="form-control" placeholder="Phone Number " required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Email " required>
+                <br>
+        
+                <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea>
+        
+                <br>
+        
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+            </div>
+        </section>
+
+    </div>
     
     
     <!-- Footer -->
@@ -207,6 +211,7 @@
             <li class="social-list__item"><a class="social-list__link" href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
         </ul>
     </footer>
+
 
     <script src="js/app.js"></script>
     <script src="/js"></script>

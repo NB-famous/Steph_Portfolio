@@ -183,6 +183,9 @@ header {
     /* border-bottom: 1px solid; */
     position: relative;
     /* box-shadow: 10px 10px 20px var(--clr-dark); */
+    background-color: var(--clr-light);
+    z-index: 900;
+
 
 }
 
@@ -801,3 +804,17 @@ form .submit:hover{
     cursor: pointer;
     opacity: 0.5;
 }
+
+
+
+/* My stick scroll styling */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .myContent_box {
+    padding-top: 102px;
+  }
